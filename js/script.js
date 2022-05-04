@@ -15,3 +15,13 @@ testWebP(function (support) {
     document.querySelector('body').classList.add('no-webp');
   }
 });
+
+$(document).ready(function () {
+  $('.classes__info--slider').slick({
+    arrows: true,
+    slidesToShow: 4,
+    slidesToScroll: 1
+    // accessibility: true,
+
+  });
+});
